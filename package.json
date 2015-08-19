@@ -1,0 +1,42 @@
+{
+  "name": "ghrd",
+  "version": "1.0.0",
+  "description": "Get Github repo details of current working directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatfreaker/ghrd.git"
+  },
+  "bin": {
+    "fetgithubdetails": "index.js",
+    "ghrd": "./bin/ghrd"
+  },
+  "keywords": [
+    "github",
+    "repo",
+    "productivity",
+    "bash",
+    "shortcut",
+	"git"
+  ],
+  "author": {
+		"name": "Chintan Radia", 
+		"email": "radiachints1512@gmail.com",
+		"url": "http://beatfreaker.github.io/)"
+	},
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beatfreaker/ghrd/issues"
+  },
+  "homepage": "https://github.com/beatfreaker/ghrd#readme",
+  "dependencies": {
+    "chalk": "^1.1.0",
+    "elegant-spinner": "^1.0.0",
+    "github-url-to-object": "^1.5.2",
+    "got": "^4.1.1",
+    "log-update": "^1.0.0"
+  }
+}

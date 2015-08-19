@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Figure out github repo base URL
+base_github_url=$(git config --get remote.origin.url)
+base_github_url=${base_github_url%\.git} # remove .git from end of string
+
+echo $base_github_url
+fetgithubdetails "$base_github_url"
