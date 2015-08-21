@@ -25,6 +25,6 @@ ghrd
 
 ## License
 
-[ISC](opensource.org/licenses/ISC)
+[ISC](http://opensource.org/licenses/ISC)
 
 
