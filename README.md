@@ -1,6 +1,6 @@
 # ghrd
 
-A command to get GitHub Repo details(stars,forks,watchers) of current working directrory(should be a git directory)
+> A command to get GitHub Repo details(stars,forks,watchers) of current working directrory(should be a git directory)
 
 ## Installation
 
